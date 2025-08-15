@@ -22,3 +22,7 @@ function FillSelfInto() {
     document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
     document.getElementById("english-content").innerText = MySection1["#English"];
 }
+
+addEventListener("DOMContentLoaded", (event) => {
+    FillSelfInto();
+});
