@@ -17,7 +17,7 @@ async function loadFileContent(url) {
 }
 
 function FillSelfInto() {
-    let MySection1 = loadFileContent("/src/raw-Section1");
+    let MySection1 = loadFileContent("./src/raw-Section1");
     document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
     document.getElementById("english-content").innerText = MySection1["#English"];
 }

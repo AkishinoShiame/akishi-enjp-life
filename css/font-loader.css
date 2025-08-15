@@ -1,8 +1,8 @@
 /* Load Regular Font */
 @font-face {
   font-family: 'Migu2M';
-  src: url('fonts/migu-2m-regular.woff2') format('woff2'),
-       url('fonts/migu-2m-regular.woff') format('woff');
+  src: url('./fonts/migu-2m-regular.woff2') format('woff2'),
+       url('./fonts/migu-2m-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,8 +10,8 @@
 /* Load Bold Font */
 @font-face {
   font-family: 'Migu2M';
-  src: url('fonts/migu-2m-bold.woff2') format('woff2'),
-       url('fonts/migu-2m-bold.woff') format('woff');
+  src: url('./fonts/migu-2m-bold.woff2') format('woff2'),
+       url('./fonts/migu-2m-bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
