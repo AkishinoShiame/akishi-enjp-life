@@ -1,4 +1,6 @@
-# Japanese
-IT分野で5年以上の経験を持ち、クラウドコンピューティング、ネットワーク、ディープラーニング応用に精通しています。優れた問題解決力と創造性を発揮し、独立してもチームでも柔軟に業務を遂行できます。これまでOSSエンジニア、社内ITスペシャリスト、CSSエンジニアとして、ネットワーク管理、クラウドインフラ、通信システム、ブレークフィックス対応などの専門知識を培ってきました。新技術への情熱と継続的な学習意欲を持ち、業界動向を先取りするためハッカソンにも積極的に参加しています。
-# English
-Shiame is an IT professional with 5+ years of experience in Cloud Computing, Networking, and Deep Learning applications. Known for strong problem-solving skills, creativity, and the ability to work both independently and collaboratively. He has held roles as an OSS Engineer, In-house IT Specialist, and CSS Engineer, building expertise in network management, cloud infrastructure, communication systems, and break-fix operations. Passionate about emerging technologies and continuous learning, Shiame actively participates in hackathons to maintain a growth mindset and stay ahead of industry trends.
+{ 
+    "#Japanese": 
+    "IT分野で5年以上の経験を持ち、クラウドコンピューティング、ネットワーク、ディープラーニング応用に精通しています。優れた問題解決力と創造性を発揮し、独立してもチームでも柔軟に業務を遂行できます。これまでOSSエンジニア、社内ITスペシャリスト、CSSエンジニアとして、ネットワーク管理、クラウドインフラ、通信システム、ブレークフィックス対応などの専門知識を培ってきました。新技術への情熱と継続的な学習意欲を持ち、業界動向を先取りするためハッカソンにも積極的に参加しています。",
+    "#English":
+    "Shiame is an IT professional with 5+ years of experience in Cloud Computing, Networking, and Deep Learning applications. Known for strong problem-solving skills, creativity, and the ability to work both independently and collaboratively. He has held roles as an OSS Engineer, In-house IT Specialist, and CSS Engineer, building expertise in network management, cloud infrastructure, communication systems, and break-fix operations. Passionate about emerging technologies and continuous learning, Shiame actively participates in hackathons to maintain a growth mindset and stay ahead of industry trends."
+}
