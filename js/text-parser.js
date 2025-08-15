@@ -10,7 +10,7 @@ function FillSelfInto() {
     let MySection1;
     fetch("./src/raw-Section1")
     .then((response) => {
-        console.log(response); 
+        console.log(response.json()); 
         MySection1 = response.json();
     })
     .catch((error) => {
