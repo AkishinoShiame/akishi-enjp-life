@@ -3,17 +3,14 @@
  */
 
 async function loadFileContent(url) {
-  try {
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    const content = await response.json(); 
-    // console.log(content); // Do something with the file content
-    return content;
-  } catch (error) {
-    console.error('Error loading file:', error);
-  }
+    fetch('url')
+    .then((response) => {
+        console.log(response); 
+        return response.json();
+    })
+    .catch((error) => {
+        console.log(`Error: ${error}`);
+    })
 }
 
 function FillSelfInto() {
