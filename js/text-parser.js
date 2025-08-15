@@ -7,7 +7,7 @@ async function loadFileContent(url) {
 }
 
 function FillSelfInto() {
-    fetch("/src/raw-Section1")
+    fetch("./src/raw-Section1")
     .then((response) => {
         console.log(response); 
     })
