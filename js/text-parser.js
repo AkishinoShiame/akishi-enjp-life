@@ -8,8 +8,9 @@ async function FillSelfInto() {
     .catch((error) => {
         console.log(`Error: ${error}`);
     })
-    document.getElementById("japanese-content").innerText = await MySection1["#Japanese"];
-    document.getElementById("english-content").innerText = await MySection1["#English"];
+    alert(MySection1);
+    document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
+    document.getElementById("english-content").innerText = MySection1["#English"];
 }
 
 addEventListener("DOMContentLoaded", (event) => {
