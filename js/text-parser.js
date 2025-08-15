@@ -7,14 +7,15 @@ async function loadFileContent(url) {
 }
 
 function FillSelfInto() {
+    let MySection1;
     fetch("./src/raw-Section1")
     .then((response) => {
         console.log(response); 
+        MySection1 = response.json();
     })
     .catch((error) => {
         console.log(`Error: ${error}`);
     })
-    let MySection1 = response.json();
     document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
     document.getElementById("english-content").innerText = MySection1["#English"];
 }
