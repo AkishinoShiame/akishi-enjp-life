@@ -39,7 +39,7 @@ async function titleGen(){
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   // Draw
-  await ctx.fillText(ttpcode(title),(canvas.width - twid) / 2,canvas.height / 2)
+  await ctx.fillText(ttpcode(title),(canvas.width - tWid) / 2,canvas.height / 2)
 }
 
 /** Below will load all content from the requests chk file */
