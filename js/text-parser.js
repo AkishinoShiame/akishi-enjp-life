@@ -16,6 +16,20 @@ async function fetchData(url) {
   }
 }
 
+function titleGen(){
+  let title = "Q0hJVSwgU0hFTkctWVUgKOmCseebm+WuhykgfCBTaGlhbWUgQWtpc2hpbm8="
+  const canvas = document.getElementById("res-title");
+  const ctx = canvas.getContex('2d');
+  // set font and size 
+  ctx.font = "2.5rem Migu2M";
+  ctx.fillStyle = 'black'; // Text color
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  // Draw
+  ctx.fillText(atob(title),2.5rem,2.5rem)
+}
+
+/** Below will load all content from the requests chk file */
 addEventListener("DOMContentLoaded", (event) => {
     ;
     (async () => {
@@ -25,4 +39,5 @@ addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
     document.getElementById("english-content").innerText = MySection1["#English"];
     })();
+    titleGen();
 });
