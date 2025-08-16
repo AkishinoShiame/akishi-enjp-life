@@ -45,6 +45,7 @@ async function titleGen(){
 function jobEduGen(data,content) {
   let ElemId = "ul-" + content;
   let listContainer = document.getElementById(ElemId);
+  listContainer.innerHTML = ""; //cleanup
     data.profiles.forEach(profile => {
       if(profile.type == content){
         let li = document.createElement("li");
