@@ -29,13 +29,17 @@ async function titleGen(){
   let title = "QwBIAEkAVQAsACAAUwBIAEUATgBHAC0AWQBVACAAKACxkNt2h1spACAAfAAgAFMAaABpAGEAbQBlACAAQQBrAGkAcwBoAGkAbgBvAA=="
   const canvas = document.getElementById("res-title");
   const ctx = canvas.getContext('2d');
+  //canvas size
+  canvas.width = canvas.parentElement.clientWidth;
+  canvas.height = canvas.parentElement.clientHeight;
+  const tWid = 38;
   // set font and size 
   ctx.font = "2.5rem Migu2M";
   ctx.fillStyle = 'black'; // Text color
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   // Draw
-  await ctx.fillText(ttpcode(title),40,40)
+  await ctx.fillText(ttpcode(title),(canvas.width - twid) / 2,canvas.height / 2)
 }
 
 /** Below will load all content from the requests chk file */
@@ -44,7 +48,6 @@ addEventListener("DOMContentLoaded", (event) => {
     (async () => {
     const url = './src/raw-Section1';
     const MySection1 = await fetchData(url);
-    console.log(MySection1); // Process the returned value
     document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
     document.getElementById("english-content").innerText = MySection1["#English"];
     titleGen();
