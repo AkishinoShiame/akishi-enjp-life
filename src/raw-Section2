@@ -1,8 +1,8 @@
 {
   "profiles": [
     {
-      "type": "career",  // "career" or "education"
-      "timestamp": "2024年7月　→　現在",  // ISO形式推奨
+      "type": "career",
+      "timestamp": "2024年7月　→　現在",
       "ja": {
         "name": "台湾マイクロソフト株式会社 入社",
         "title": "カスタマーサービス＆サポート部にてテクニカルサポートエンジニアを担当"
@@ -72,9 +72,8 @@
         "title": "Technical Engineer (Taipei , Taiwan)"
       }
     },
-    //// ------------------------------------------------------------------------------------------------
     {
-      "type": "education",  // "education"
+      "type": "education",
       "timestamp": "2015年9月　→　2017年9月",
       "ja": {
         "name": "(台湾・桃園県)私立銘伝大学",
