@@ -19,7 +19,7 @@ async function fetchData(url) {
 function titleGen(){
   let title = "Q0hJVSwgU0hFTkctWVUgKOmCseebm+WuhykgfCBTaGlhbWUgQWtpc2hpbm8="
   const canvas = document.getElementById("res-title");
-  const ctx = canvas.getContex('2d');
+  const ctx = canvas.getContext('2d');
   // set font and size 
   ctx.font = "2.5rem Migu2M";
   ctx.fillStyle = 'black'; // Text color
