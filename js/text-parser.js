@@ -26,7 +26,7 @@ function titleGen(){
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   // Draw
-  ctx.fillText(atob(title),2.5rem,2.5rem)
+  ctx.fillText(atob(title),40,40)
 }
 
 /** Below will load all content from the requests chk file */
