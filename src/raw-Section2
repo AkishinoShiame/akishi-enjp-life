@@ -1,0 +1,113 @@
+{
+  "profiles": [
+    {
+      "type": "career",  // "career" or "education"
+      "timestamp": "2024年7月　→　現在",  // ISO形式推奨
+      "ja": {
+        "name": "台湾マイクロソフト株式会社 入社",
+        "title": "カスタマーサービス＆サポート部にてテクニカルサポートエンジニアを担当"
+      },
+      "en": {
+        "name": "Microsoft Taiwan Corporation",
+        "title": "Tech Support Eng SE in CSS"
+      }
+    },
+    {
+      "type": "career",
+      "timestamp": "2022年4月　→　2024年6月",
+      "ja": {
+        "name": "台湾マイクロソフト株式会社 入社",
+        "title": "カスタマーサービス＆サポート部にて顧客支援エンジニアを担当"
+      },
+      "en": {
+        "name": "Microsoft Taiwan Corporation",
+        "title": "Technical Support Engineer in CSS"
+      }
+    },
+    {
+      "type": "career",
+      "timestamp": "2020年02月　→　2022年3月",
+      "ja": {
+        "name": "台湾日立アジアパシフィック 入社",
+        "title": "情報技術部所属エンジニア"
+      },
+      "en": {
+        "name": "Taiwan Hitachi Asia Pacific Co., Ltd.",
+        "title": "Information Technology Department(ITD) Engineer"
+      }
+    },
+    {
+      "type": "career",
+      "timestamp": "2017年12月　→　2020年2月",
+      "ja": {
+        "name": "ノキア-台湾支社　契約社員",
+        "title": "OSSエンジニア"
+      },
+      "en": {
+        "name": "Nokia (Contractor)",
+        "title": "OSS Engineer (Taipei , Taiwan)"
+      }
+    },
+    {
+      "type": "career",  
+      "timestamp": "2018年1月　→　2020年2月",  
+      "ja": {
+        "name": "ウィツ株式会社-台湾本社 入社",
+        "title": "上級技術エンジニア"
+      },
+      "en": {
+        "name": "WistronITS",
+        "title": "Senior Technical Engineer (Taipei , Taiwan)"
+      }
+    },
+    {
+      "type": "career",
+      "timestamp": "2017年12月",
+      "ja": {
+        "name": "ウィツ株式会社-台湾本社 入社",
+        "title": "技術エンジニア"
+      },
+      "en": {
+        "name": "WistronITS",
+        "title": "Technical Engineer (Taipei , Taiwan)"
+      }
+    },
+    //// ------------------------------------------------------------------------------------------------
+    {
+      "type": "education",  // "education"
+      "timestamp": "2015年9月　→　2017年9月",
+      "ja": {
+        "name": "(台湾・桃園県)私立銘伝大学",
+        "title": "情報科学学部情報コミュニケーション工学研究科　卒業"
+      },
+      "en": {
+        "name": "Ming-Chuan University (Taoyuan , Taiwan)",
+        "title": "Master in Computer and Communication Engineering; cumulative GPA: 3.9/4"
+      }
+    },
+    {
+      "type": "education",
+      "timestamp": "2011年9月　→　2015年6月",
+      "ja": {
+        "name": "(台湾・桃園県)私立銘伝大学",
+        "title": "情報科学学部情報コミュニケーション工学学科　卒業"
+      },
+      "en": {
+        "name": "Ming-Chuan University (Taoyuan , Taiwan)",
+        "title": "Bachelor in Computer and Communication Engineering, with Advanced English & Information Security Program; cumulative GPA: 3.6/4"
+      }
+    },
+    {
+      "type": "education",
+      "timestamp": "2008年9月　→　2011年6月",
+      "ja": {
+        "name": "(台湾)国立羅東高等学校　卒業",
+        "title": "普通科"
+      },
+      "en": {
+        "name": "(Taiwan)National Luodong Senior High School",
+        "title": "General Academic Program"
+      }
+    }
+  ]
+}

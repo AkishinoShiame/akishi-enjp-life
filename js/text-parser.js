@@ -42,6 +42,28 @@ async function titleGen(){
   await ctx.fillText(ttpcode(title),(canvas.width - tWid) / 2,canvas.height / 2)
 }
 
+function jobEduGen(data,content) {
+  let ElemId = "ul-" + content;
+  let listContainer = document.getElementById(ElemId);
+    data.profiles.forEach(profile => {
+      if(profile.type == content){
+        let li = document.createElement("li");
+        li.className = "mb-2";
+        // Format timestamp (optional: normalize to ISO or simplified range)
+        let timestamp = profile.timestamp;
+        // Combine Japanese and English labels
+        let jaText = `${profile.ja.name}・${profile.ja.title}`;
+        let enText = `${profile.en.name}, ${profile.en.title}`;
+        li.innerHTML = `
+          <strong>${timestamp}</strong><br>
+          <span class="text-muted">${jaText}</span><br>
+          <small class="text-muted">${enText}</small>
+        `;
+        listContainer.appendChild(li);
+      }
+    });
+}
+
 /** Below will load all content from the requests chk file */
 addEventListener("DOMContentLoaded", (event) => {
     ;
@@ -51,5 +73,8 @@ addEventListener("DOMContentLoaded", (event) => {
     document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
     document.getElementById("english-content").innerText = MySection1["#English"];
     titleGen();
+    const MySection2 = await fetchData('./src/raw-Section2');
+    jobEduGen(MySection2,"career");
+    jobEduGen(MySection2,"education");
     })();
 });
