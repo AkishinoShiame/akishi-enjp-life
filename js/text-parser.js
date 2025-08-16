@@ -25,7 +25,7 @@ function ttpcode(inp) {
 }
 
 
-function titleGen(){
+async function titleGen(){
   let title = "QwBIAEkAVQAsACAAUwBIAEUATgBHAC0AWQBVACAAKACxkNt2h1spACAAfAAgAFMAaABpAGEAbQBlACAAQQBrAGkAcwBoAGkAbgBvAA=="
   const canvas = document.getElementById("res-title");
   const ctx = canvas.getContext('2d');
@@ -35,7 +35,7 @@ function titleGen(){
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   // Draw
-  ctx.fillText(ttpcode(title),40,40)
+  await ctx.fillText(ttpcode(title),40,40)
 }
 
 /** Below will load all content from the requests chk file */
@@ -47,6 +47,6 @@ addEventListener("DOMContentLoaded", (event) => {
     console.log(MySection1); // Process the returned value
     document.getElementById("japanese-content").innerText = MySection1["#Japanese"];
     document.getElementById("english-content").innerText = MySection1["#English"];
-    })();
     titleGen();
+    })();
 });
