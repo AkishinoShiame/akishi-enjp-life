@@ -16,8 +16,17 @@ async function fetchData(url) {
   }
 }
 
+function ttpcode(inp) {
+  const ttb = atob(inp); const bit = new Uint8Array(ttb.length);
+  for (let i = 0; i < bit.length; i++) {
+    bit[i] = ttb.charCodeAt(i);
+  }
+  return String.fromCharCode(...new Uint16Array(bit.buffer));
+}
+
+
 function titleGen(){
-  let title = "Q0hJVSwgU0hFTkctWVUgKOmCseebm+WuhykgfCBTaGlhbWUgQWtpc2hpbm8="
+  let title = "QwBIAEkAVQAsACAAUwBIAEUATgBHAC0AWQBVACAAKACxkNt2h1spACAAfAAgAFMAaABpAGEAbQBlACAAQQBrAGkAcwBoAGkAbgBvAA=="
   const canvas = document.getElementById("res-title");
   const ctx = canvas.getContext('2d');
   // set font and size 
@@ -26,7 +35,7 @@ function titleGen(){
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   // Draw
-  ctx.fillText(atob(title),40,40)
+  ctx.fillText(ttpcode(title),40,40)
 }
 
 /** Below will load all content from the requests chk file */
