@@ -112,7 +112,7 @@
             "author": "Lee, M. C., Yeh, S. C., Chiu, S. Y., Chang, J. W.",
             "titlejp": "深層畳み込みニューラルネットワークを用いた仮想高齢者コンパニオンエージェント",
             "titleen": "A Deep Convolutional Neural Network Based Virtual Elderly Companion Agent",
-            "sourcejp": "第8回ACMマルチメディアシステム会議（pp.235–238）"
+            "sourcejp": "第8回ACMマルチメディアシステム会議（pp.235–238）",
             "sourceen": "Proceedings of the 8th ACM on Multimedia Systems Conference (pp. 235–238)"
         },
         {
@@ -120,7 +120,7 @@
             "author": "Lee, M. C., Chiu, S. Y., Chang, J. W.",
             "titlejp": "深層畳み込みニューラルネットワークを用いた中国語メニュー認識アプリ",
             "titleen": "A Deep Convolutional Neural Network based Chinese Menu Recognition App",
-            "sourcejp": "Information Processing Letters, 第128巻, pp.14-20"
+            "sourcejp": "Information Processing Letters, 第128巻, pp.14-20",
             "sourceen": "Information Processing Letters, Vol. 128, pp.14–20"
         },
         {
@@ -128,7 +128,7 @@
             "author": "Chiu, S. Y., Hsu, Y. C., Huang, S. W., Liu, Y. C., Yeh S. C.",
             "titlejp": "クラウドコンピューティングシステムにおける動的省エネルギーの研究",
             "titleen": "A Study of Dynamic Energy Conservation over Cloud Computing Systems",
-            "sourcejp": "銘伝大学 国際学術会議 2015年"
+            "sourcejp": "銘伝大学 国際学術会議 2015年",
             "sourceen": "Ming Chuan University, International Academic Conference 2015"
         }
     ]
