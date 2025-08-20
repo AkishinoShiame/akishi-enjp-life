@@ -86,7 +86,19 @@ function acpFill(jsondata) {
       `;
       award.appendChild(ul);
     });
-    jsondata.Certifications.forEach(profile => {});
+    jsondata.Certifications.forEach(cert => {
+      let ul = document.createElement("ul");
+      ul.className = "list-unstyled mb-0";
+      let li = document.createElement("li");
+      li.className = "mb-1";
+      li.innerHTML = `
+        <h6><b>${cert.time}</b></h6>
+        ${cert.titlejp}
+        <br><small class="text-muted ms-4">${cert.titleen}</small>
+      `;
+      ul.appendChild(li);
+      certification.appendChild(ul);
+    });
     jsondata.Publications.forEach(profile => {});
 }
 
