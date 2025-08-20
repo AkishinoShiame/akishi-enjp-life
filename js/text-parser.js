@@ -65,18 +65,6 @@ function jobEduGen(data,content) {
     });
 }
 
-function acpFill(jsondata) {
-  let award = document.getElementById("awar");
-  let certification = document.getElementById("cert");
-  let publication = document.getElementById("publ");
-  award.innerHTML = ""; //cleanup
-  certification.innerHTML = ""; //cleanup
-  publication.innerHTML = ""; //cleanup
-    jsondata.Awards.forEach(profile => {});
-    jsondata.Certifications.forEach(profile => {});
-    jsondata.Publications.forEach(profile => {});
-}
-
 /** Below will load all content from the requests chk file */
 addEventListener("DOMContentLoaded", (event) => {
     ;
@@ -89,7 +77,5 @@ addEventListener("DOMContentLoaded", (event) => {
     const MySection2 = await fetchData('./src/raw-Section2');
     jobEduGen(MySection2,"career");
     jobEduGen(MySection2,"education");
-    const MySection3 = await fetchData('./src/raw-Section3');
-    acpFill(MySection3);
     })();
 });
