@@ -72,7 +72,20 @@ function acpFill(jsondata) {
   award.innerHTML = ""; //cleanup
   certification.innerHTML = ""; //cleanup
   publication.innerHTML = ""; //cleanup
-    jsondata.Awards.forEach(profile => {});
+    jsondata.Awards.forEach(awar => {
+      let ul = document.createElement("ul");
+      ul.className = "list-unstyled mb-0";
+      ul.innerHTML = `
+        <h6>${awar.title}</h6>
+        <span class="me-2" style="width: 8px; height: 8px; background-color: #000; border-radius: 50%; display: inline-block;"></span>
+        <span>${awar.time}</span>
+        <li class="mb-1">
+            ${awar.langjp}
+            <br><small class="text-muted ms-4">${awar.langen}</small>
+        </li>
+      `;
+      award.appendChild(ul);
+    });
     jsondata.Certifications.forEach(profile => {});
     jsondata.Publications.forEach(profile => {});
 }
