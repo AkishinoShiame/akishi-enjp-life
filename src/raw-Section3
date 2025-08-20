@@ -1,91 +1,135 @@
 {
     "Awards":[
         {
-            "title": "src/raw-Section3/index.html",
-            "type": "file",
-            "name": "index.html",
-            "content": "<!-- HTML content here -->"
+            "title": "カルチャーアワード（Culture Award） – CE&S GCR Rewards & Recognition Program",
+            "time": "2025年",
+            "langjp": "VMチームの知見を活かし、Batch AVAリクエスト対応や日本語のみ話すエンジニアとのコミュニケーションをサポートし、顧客課題を円滑に解決。",
+            "langen": "Leveraged VM expertise to handle Batch AVA requests and facilitate communication with a Japanese-speaking engineer, ensuring smooth resolution of customer issues."
+        },
+        {
+            "title": "5-Star Performer",
+            "time": "2025年5月",
+            "langjp": "顧客満足度で最高評価を獲得し、「5-Star Performer」として表彰。",
+            "langen": "Awarded as a “5-Star Performer” in May 2025 for achieving top customer satisfaction ratings."
+        },
+        {
+            "title": "Customer Hero Award",
+            "time": "2025年2月・3月・5月",
+            "langjp": "顧客からの直接フィードバックに基づき、「Customer Hero」として表彰。迅速かつ明確な対応で高評価を獲得。",
+            "langen": "Recognized as a “Customer Hero” in February, March, and May 2025 for delivering prompt, clear, and effective solutions, earning outstanding customer feedback."
+        },
+        {
+            "title": "カルチャーアワード ノミネーション（Culture Award Nominations）",
+            "time": "複数回（2024–2025年）",
+            "langjp": "CE&S GCR Rewards & Recognition Programにおいて複数回ノミネート。",
+            "langen": "Nominated multiple times for the CE&S GCR Culture Award under the Rewards & Recognition Program."
+        },
+        {
+            "title": "Star of Quarter Award – FY23 Q3",
+            "time": "2023年度 第3四半期",
+            "langjp": "CE&S GCR Rewards & Recognition Programにおいて「Star of Quarter」を受賞。",
+            "langen": "Received the “Star of Quarter” Award for FY23 Q3 under the CE&S GCR Rewards & Recognition Program."
+        },
+        {
+            "title": "ideaXD × Hackathon ベストデザイン賞",
+            "time": "2015年3月",
+            "langjp": "チームをリードし、実用的なプロトタイプを制作してデザイン賞を受賞。",
+            "langen": "Led team to develop a functional prototype and won Best Design Award."
+        },
+        {
+            "title": "ACM-CPE Coding Contest 成績優秀者",
+            "time": "2012年12月",
+            "langjp": "英語の問題を解き、参加者894名中109位（上位12.2%）にランクイン。",
+            "langen": "Solved coding problems in English and ranked in the top 12.2% out of 894 participants."
+        },
+        {
+            "title": "銘伝大学 三分間スピーチ 優秀表現賞",
+            "time": "2011年11月",
+            "langjp": "龍山寺訪問を題材にした映像と発表が高評価を受け、学期最優秀スピーチとして表彰。",
+            "langen": "Awarded for top 3-minute speech featuring a film and report on a visit to Longshan Temple."
         }
     ],
     "Certifications":[
         {
-            "path": "src/raw-Section3/index.html",
-            "type": "file",
-            "name": "index.html",
-            "content": "<!-- HTML content here -->"
+            "time": "令和4年6月（Jun 2022）",
+            "titlejp": "Microsoft Azure 基礎認定資格（AZ-900）",
+            "titleen": "AZ-900: Microsoft Azure Fundamentals"
+        },
+        {
+            "time": "令和3年1月（Jan 2021）",
+            "titlejp": "日本語能力試験 JLPT N1 合格",
+            "titleen": "Japanese Language Proficiency Test (JLPT) Level N1"
+        },
+        {
+            "time": "平成30年1月（Jan 2018）",
+            "titlejp": "日本語能力試験 JLPT N2 合格",
+            "titleen": "Japanese Language Proficiency Test (JLPT) Level N2"
+        },
+        {
+            "time": "平成28年8月（Aug 2016）",
+            "titlejp": "Cisco CCNA Routing & Switching 認定資格",
+            "titleen": "Cisco CCNA Routing & Switching Certificate"
+        },
+        {
+            "time": "平成27年11月（Nov 2015）",
+            "titlejp": "TOEIC スコア 795 点取得",
+            "titleen": "TOEIC Score: 795"
+        },
+        {
+            "time": "平成26年5月（May 2014）",
+            "titlejp": "SUSE認定Linux管理者: SUSE Linux Enterprise Server 12",
+            "titleen": "SUSE Certified Linux Administrator: SUSE Linux Enterprise Server 12"
+        },
+        {
+            "time": "平成26年5月（May 2014）",
+            "titlejp": "SUSE認定Linux管理者: SUSE Linux Enterprise Server 11",
+            "titleen": "SUSE Certified Linux Administrator: SUSE Linux Enterprise Server 11"
+        },
+        {
+            "time": "平成26年5月（May 2014）",
+            "titlejp": "Linux Professional Institute LPIC-1 認定資格",
+            "titleen": "Linux Professional Institute LPIC-1 Certification"
+        },
+        {
+            "time": "平成26年5月（May 2014）",
+            "titlejp": "Autodesk Maya 2013 認定プロフェッショナル",
+            "titleen": "Autodesk Maya 2013 Certified Professional"
+        },
+        {
+            "time": "平成24年12月（Dec 2012）",
+            "titlejp": "Microsoft Technology Associate: ネットワーク基礎",
+            "titleen": "Microsoft Technology Associate: Networking Fundamentals"
+        },
+        {
+            "time": "平成24年1月（Jan 2012）",
+            "titlejp": "Adobe認定アソシエイト - Adobe Flash CS5によるリッチメディアコミュニケーション",
+            "titleen": "Adobe Certified Associate - Rich Media Communication using Adobe Flash CS5"
         }
     ],
     "Publications":[
         {
-            "path": "src/raw-Section3/index.html",
-            "type": "file",
-            "name": "index.html",
-            "content": "<!-- HTML content here -->"
+            "time": "2017年6月",
+            "author": "Lee, M. C., Yeh, S. C., Chiu, S. Y., Chang, J. W.",
+            "titlejp": "深層畳み込みニューラルネットワークを用いた仮想高齢者コンパニオンエージェント",
+            "titleen": "A Deep Convolutional Neural Network Based Virtual Elderly Companion Agent",
+            "sourcejp": "第8回ACMマルチメディアシステム会議（pp.235–238）"
+            "sourceen": "Proceedings of the 8th ACM on Multimedia Systems Conference (pp. 235–238)"
+        },
+        {
+            "time": "2017年",
+            "author": "Lee, M. C., Chiu, S. Y., Chang, J. W.",
+            "titlejp": "深層畳み込みニューラルネットワークを用いた中国語メニュー認識アプリ",
+            "titleen": "A Deep Convolutional Neural Network based Chinese Menu Recognition App",
+            "sourcejp": "Information Processing Letters, 第128巻, pp.14-20"
+            "sourceen": "Information Processing Letters, Vol. 128, pp.14–20"
+        },
+        {
+            "time": "2015年",
+            "author": "Chiu, S. Y., Hsu, Y. C., Huang, S. W., Liu, Y. C., Yeh S. C.",
+            "titlejp": "クラウドコンピューティングシステムにおける動的省エネルギーの研究",
+            "titleen": "A Study of Dynamic Energy Conservation over Cloud Computing Systems",
+            "sourcejp": "銘伝大学 国際学術会議 2015年"
+            "sourceen": "Ming Chuan University, International Academic Conference 2015"
         }
     ]
 }
-
-
-
-・例示資料
-
-研究業績 / Publications
-
-2015年
-著者：Chiu, S. Y., Hsu, Y. C., Huang, S. W., Liu, Y. C., Yeh S. C.
-題名：クラウドコンピューティングシステムにおける動的省エネルギーの研究
-発表先：明志科技大学 国際学術会議 2015年
-英訳：A Study of Dynamic Energy Conservation over Cloud Computing Systems
-Conference：Ming Chuan University, International Academic Conference 2015
-
-
-
-2017年
-著者：Lee, M. C., Chiu, S. Y., Chang, J. W.
-題名：深層畳み込みニューラルネットワークを用いた中国語メニュー認識アプリ
-掲載誌：Information Processing Letters, 第128巻, pp.14-20
-英訳：A Deep Convolutional Neural Network based Chinese Menu Recognition App
-Journal：Information Processing Letters, Vol. 128, pp.14–20
-
-
-
-2017年6月
-著者：Lee, M. C., Yeh, S. C., Chiu, S. Y., Chang, J. W.
-題名：深層畳み込みニューラルネットワークを用いた仮想高齢者コンパニオンエージェント
-発表先：第8回ACMマルチメディアシステム会議（pp.235–238）
-英訳：A Deep Convolutional Neural Network Based Virtual Elderly Companion Agent
-Conference：Proceedings of the 8th ACM on Multimedia Systems Conference (pp. 235–238)
-
-
-
-受賞歴・表彰（Awards & Recognitions）
-
-
-カルチャーアワード（Culture Award） – CE&S GCR Rewards & Recognition Program
-期間: 2025年
-日本語: VMチームの知見を活かし、Batch AVAリクエスト対応や日本語のみ話すエンジニアとのコミュニケーションをサポートし、顧客課題を円滑に解決。
-English: Leveraged VM expertise to handle Batch AVA requests and facilitate communication with a Japanese-speaking engineer, ensuring smooth resolution of customer issues.
-
-
-カルチャーアワード ノミネーション（Culture Award Nominations）
-期間: 複数回（2024–2025年）
-日本語: CE&S GCR Rewards & Recognition Programにおいて複数回ノミネート。
-English: Nominated multiple times for the CE&S GCR Culture Award under the Rewards & Recognition Program.
-
-
-Customer Hero Award
-期間: 2025年2月・3月・5月
-日本語: 顧客からの直接フィードバックに基づき、「Customer Hero」として表彰。迅速かつ明確な対応で高評価を獲得。
-English: Recognized as a “Customer Hero” in February, March, and May 2025 for delivering prompt, clear, and effective solutions, earning outstanding customer feedback.
-
-
-5-Star Performer
-期間: 2025年5月
-日本語: 顧客満足度で最高評価を獲得し、「5-Star Performer」として表彰。
-English: Awarded as a “5-Star Performer” in May 2025 for achieving top customer satisfaction ratings.
-
-
-Star of Quarter Award – FY23 Q3
-期間: 2023年度 第3四半期
-日本語: CE&S GCR Rewards & Recognition Programにおいて「Star of Quarter」を受賞。
-English: Received the “Star of Quarter” Award for FY23 Q3 under the CE&S GCR Rewards & Recognition Program.
