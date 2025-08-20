@@ -76,7 +76,7 @@ function acpFill(jsondata) {
       let ul = document.createElement("ul");
       ul.className = "list-unstyled mb-0";
       ul.innerHTML = `
-        <h6>${awar.title}</h6>
+        <h6 class="h6"><b>${awar.title}</b></h6>
         <span class="me-2" style="width: 8px; height: 8px; background-color: #000; border-radius: 50%; display: inline-block;"></span>
         <span>${awar.time}</span>
         <li class="mb-1">
