@@ -99,7 +99,22 @@ function acpFill(jsondata) {
       ul.appendChild(li);
       certification.appendChild(ul);
     });
-    jsondata.Publications.forEach(profile => {});
+    let MonUl = document.createElement("ul");
+    MonUl.className = "list-unstyled mb-0";
+    jsondata.Publications.forEach(publ => {
+        let li = document.createElement("li");
+        li.className = "mb-1";
+        li.innerHTML = `
+            <h6 class="text-muted mb-2">${publ.time}</h6>
+            <h5 class="card-title mb-1">${publ.titlejp}</h5>
+            <p class="text-secondary fst-italic mb-3">${publ.titleen}</p>
+            <p class="mb-2 fs-6 fw-light text-secondary">${publ.author}</p>
+            <p class="mb-0"><strong>${publ.sourcejp}</strong> </p>
+            <p class="mb-0 ">${publ.sourceen}</p>
+        `;
+        MonUl.appendChild(li);
+    });
+    publication.appendChild(MonUl);
 }
 
 /** Below will load all content from the requests chk file */
