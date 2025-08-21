@@ -83,6 +83,7 @@ function acpFill(jsondata) {
             ${awar.langjp}
             <br><small class="text-muted ms-4">${awar.langen}</small>
         </li>
+        <br><br>
       `;
       award.appendChild(ul);
     });
@@ -95,6 +96,7 @@ function acpFill(jsondata) {
         <h5 class="h5"><b>${cert.time}</b></h5>
         ${cert.titlejp}
         <br><small class="text-muted ms-4">${cert.titleen}</small>
+        <br><br>
       `;
       ul.appendChild(li);
       certification.appendChild(ul);
@@ -111,6 +113,7 @@ function acpFill(jsondata) {
             <p class="mb-2 fs-6 fw-light text-secondary">${publ.author}</p>
             <p class="mb-0"><strong>${publ.sourcejp}</strong> </p>
             <p class="mb-0 ">${publ.sourceen}</p>
+            <br><br>
         `;
         MonUl.appendChild(li);
     });
